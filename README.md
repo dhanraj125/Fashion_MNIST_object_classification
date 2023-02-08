@@ -45,3 +45,5 @@ This graph shows the training and validation accuracy per epochs. This is a run 
 
 
 The highest accuracy is got by using CNN algorithm. The final training accuracy got is 97% and validation accuracy got is 92%.
+
+> Final Accuracy achieved= 86.15%
