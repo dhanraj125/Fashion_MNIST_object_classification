@@ -25,12 +25,23 @@ For hyperparameter tuning RandomizedSearchCV from sklearn is used. Hyperparamete
 
 ## Training 
 
-During training 
+![training and validation accuracy](https://github.com/dhanraj125/mnist_object_detection/blob/main/plots/hyperparameter_tuning.PNG)
+
+The above figure shows the traning and validation accuracy by using different methods such as dropout, Batch normalization. First run is the default run without batch normalization and dropout, second run is by using only batch normallization, dropout run is by using dropout of 20%, and the last run is the run using both batch normalization and dropout of 20%.
 
 ## Evaluation
 
+### sequential ANN accuracy
+
+![ANN](https://github.com/dhanraj125/mnist_object_detection/blob/main/plots/ANN.png)
+
+This graph shows the training and validation accuracy per epochs. This run uses both batch normalization and 20% dropout
 
 
 
+![CNN](https://github.com/dhanraj125/mnist_object_detection/blob/main/plots/cnn.png)
 
-![This is Image](https://github.com/dhanraj125/mnist_object_detection/blob/main/plots/cnn.png)
+This graph shows the training and validation accuracy per epochs. This is a run of final CNN algorithm.
+
+
+The highest accuracy is got by using CNN algorithm. The final training accuracy got is 97% and validation accuracy got is 92%.
