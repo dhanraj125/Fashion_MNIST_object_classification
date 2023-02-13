@@ -35,7 +35,7 @@ The above figure shows the traning and validation accuracy by using different me
 
 ![ANN](https://github.com/dhanraj125/mnist_object_detection/blob/main/plots/ANN.png)
 
-This graph shows the training and validation accuracy per epochs. This run uses both batch normalization and 20% dropout
+This graph shows the training and validation accuracy per the epochs. This run uses both batch normalization and 20% dropout
 
 
 
